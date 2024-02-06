@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Inserindo Música e video na página</h1>
+    <p>Para inserir uma musica mp3 em suas paginaas web, o arquivo deve etar em uma pasta dentro da pasta raiz do site. No nosso caso a pasta media</p>
+
+    <audio controls>
+        <source src="media/audio/metalica_nothing.mp3" type="audio/mpeg">
+    </audio>
+
+    <section>
+        <p>Veja o video a seguir:</p>
+        <video controls>
+            <source src="media/video/london.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+    </section>
+    <br>
+    <hr>
+    <video controls>
+        <source src="media/video/pink-floyd.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="pt-br" src="media/video/legenda-ptbr.vtt" label="Português Brasil" default>
+        <source src="media/video/pink-floyd.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="pt-br" src="media/video/legenda-en.vtt" label="Inglês" default>
+    </video>
+        <section>   
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/21mDekTZwsw?si=uLX9BVUo9ag5W1wI" title="Brilhante-Curta Metragem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <!--A tag <ifram> especifica um quadro embutido, Um quadro embutido é usado para incorporar outro documento no documento html atual-->
+        <hr>
+        <br>
+        <article>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14632.490274675807!2d-46.6918154!3d-23.5280936!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1706729520383!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+</body>
+</html>
