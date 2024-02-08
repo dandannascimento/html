@@ -1,0 +1,14 @@
+h1{
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(77, 199, 72);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(55, 62, 60);
+}
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    width: 200px;
+}
