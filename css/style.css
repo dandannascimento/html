@@ -1,3 +1,7 @@
+body{
+    margin: auto;
+    margin: 30px;
+}
 h1{
     font-family: cursive;
     text-align: center;
@@ -9,6 +13,29 @@ h1{
 .paragrafo{
     font-family: Arial, Helvetica, sans-serif;
 }
+b{
+    color: rgb(255, 0, 0);
+}
+i{
+    color: rgb(193, 14, 193);
+}
+table{
+   border-collapse: collapse;
+   background-color: #081e34;
+   border-radius: 10px;
+   border-spacing: 15px;
+   width: 0;
+}
+td{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+
+}
 .img{
     width: 200px;
+}
+#centralizado{
+    text-align: center;
 }
