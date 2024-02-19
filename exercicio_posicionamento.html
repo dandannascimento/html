@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio posiçao</title>
-        <style>
-            body{
-                background-color: aquamarine;
-            }
-            section{
-                background-color: white;
-            }
-            .qd1{
-                background-color: rgb(126, 40, 238);
-
-            }
-            .um{
-                background-color: yellow;
-                padding:15px;
-                text-align: center;
-            }
-        </style>
  
-        </head>
-        <body>
-           <section>
-           <div class="qd1">
-            <h2 class="um">UM</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quidem perspiciatis voluptates vel minus atque fugiat architecto unde totam. Placeat dolore doloribus magnam atque inventore, tempora porro beatae. Asperiores, aliquid.</p>
-           </div>
-           </section>
-           
-            
-        </body>
-        </html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Formulário</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+ 
+        #relative{
+            position: relative;
+            left: 250px;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            width: 2350px;
+            height: 1390px;
+        }
+ 
+        #borda{
+            width: 350px;
+            height: 350px;
+            text-align: center;  
+            border: 2px solid rgb(187, 1, 1);    
+        }
+ 
+        h1{
+            background-color: yellow;
+            font-family: serif;
+        }
+ 
+        .um{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgb(175, 65, 248);
+            font-family: sans-serif;
+        }
+ 
+        .dois{
+            position: absolute;
+            right: 0;
+            top: 0%;
+            background-color: rgb(255, 123, 0);
+            font-family: sans-serif;
+        }
+ 
+        .tres{
+            position: absolute;
+            left: 0;
+            bottom: 0%;
+            background-color: rgb(13, 228, 85);
+            font-family: sans-serif;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div id="relative">
+        <div class="um" id="borda">
+            <br>
+            <h1>Um</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit sint error dolores! Saepe repellat esse illum, mollitia ad velit fuga quia quis accusamus ratione. Nihil placeat cumque amet vel! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nostrum doloremque eos deleniti a, repellat, saepe quas officia quae consectetur, sed ullam accusantium! Et, cumque tempora architecto iure cum obcaecati.</p>
+        </div>
+ 
+        <div class="dois" id="borda">
+            <br>
+            <h1>Dois</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit sint error dolores! Saepe repellat esse illum, mollitia ad velit fuga quia quis accusamus ratione. Nihil placeat cumque amet vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe doloribus facere distinctio maxime dolores aperiam ullam corrupti optio ex architecto animi aliquid tempore earum porro rem possimus, maiores assumenda?</p>
+        </div>
+ 
+        <div class="tres" id="borda">
+            <br>
+            <h1>Três</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit sint error dolores! Saepe repellat esse illum, mollitia ad velit fuga quia quis accusamus ratione. Nihil placeat cumque amet vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, vero. Quis qui quos voluptates et, totam explicabo beatae, libero, quo doloremque asperiores neque natus. Voluptatum adipisci cumque ut eum quia.</p>
+        </div>
+    </div>
+ 
+ 
+</body>
+</html>
