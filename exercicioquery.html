@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade @media</title>
+    <style>
+    body{
+        background-color: rgb(103, 196, 173);
+        font-family: sans-serif;
+    }
+
+    /*@media screen and (min-width:320px){
+        body{
+            background-color: rgb(255, 230, 2);
+        }
+    }
+
+    @media screen and (min-width:720px){
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        p{
+            color: white;
+        }
+        h1{
+            color: white;
+        }
+    }
+
+    @media screen and (min-width:1400px){
+        body{
+            background-color: rgb(87, 87, 85);
+        }
+    }*/
+
+    @media screen and (max-width:1400px){
+        body{
+            background-color: rgb(0, 38, 255);
+        }
+    }
+
+    @media screen and (max-width:720px){
+        body{
+            background-color: rebeccapurple;
+        }
+    }
+
+    @media screen and (max-width:320px){
+        body{
+            background-color: coral;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <p>Renderizando as página em midia query</p>
+    <h1>Os breakpoints serão o seguinte: 320px, 720px, 1400px</h1>
+    
+</body>
+
+</html>
